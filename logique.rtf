@@ -1,0 +1,955 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1036{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f4\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times;}
+{\f5\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helvetica;}{\f6\fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Courier;}{\f7\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Geneva{\*\falt Arial};}
+{\f8\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Tms Rmn;}{\f9\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helv;}{\f10\froman\fcharset0\fprq2{\*\panose 00000000000000000000}MS Serif;}
+{\f11\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}MS Sans Serif;}{\f12\froman\fcharset0\fprq2{\*\panose 00000000000000000000}New York;}{\f13\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}System;}
+{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f15\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f16\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}AvantGarde;}
+{\f17\froman\fcharset0\fprq2{\*\panose 00000000000000000000}ITC Bookman;}{\f18\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helvetica-Narrow;}{\f19\froman\fcharset0\fprq2{\*\panose 00000000000000000000}NewCenturySchlbk;}
+{\f20\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Palatino;}{\f21\froman\fcharset0\fprq2{\*\panose 00000000000000000000}ZapfChancery;}{\f22\fdecor\fcharset2\fprq2{\*\panose 00000000000000000000}ZapfDingbats;}
+{\f23\fnil\fcharset2\fprq2{\*\panose 00000000000000000000}Marlett;}{\f24\fmodern\fcharset0\fprq1{\*\panose 020b0609040504020204}Lucida Console;}{\f25\fswiss\fcharset0\fprq2{\*\panose 020b0602030504020204}Lucida Sans Unicode;}
+{\f26\fswiss\fcharset0\fprq2{\*\panose 020b0a04020102020204}Arial Black;}{\f27\fscript\fcharset0\fprq2{\*\panose 030f0702030302020204}Comic Sans MS;}{\f28\fswiss\fcharset0\fprq2{\*\panose 020b0806030902050204}Impact;}
+{\f29\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Verdana;}{\f30\froman\fcharset2\fprq2{\*\panose 05030102010509060703}Webdings;}{\f31\froman\fcharset0\fprq2{\*\panose 02040502050405020303}Georgia;}
+{\f32\fswiss\fcharset0\fprq2{\*\panose 020b0603020202020204}Trebuchet MS;}{\f33\fmodern\fcharset0\fprq1{\*\panose 020b0509000000000004}Andale Mono;}{\f34\froman\fcharset0\fprq2{\*\panose 02040602050305030304}Book Antiqua;}
+{\f35\fswiss\fcharset0\fprq2{\*\panose 020b0506020202030204}Arial Narrow;}{\f36\froman\fcharset0\fprq2{\*\panose 02050604050505020204}Bookman Old Style;}{\f37\fswiss\fcharset0\fprq2{\*\panose 020b0502020202020204}Century Gothic;}
+{\f38\fswiss\fcharset0\fprq2{\*\panose 020b0706040902060204}Haettenschweiler;}{\f39\fmodern\fcharset0\fprq2{\*\panose 020b0509020102020204}Letter Gothic MT;}{\f40\froman\fcharset0\fprq2{\*\panose 02040604050505020304}Century Schoolbook;}
+{\f41\froman\fcharset0\fprq2{\*\panose 02020a06060301020303}Times New Roman MT Extra Bold;}{\f42\froman\fcharset2\fprq2{\*\panose 05050102010205020202}MT Extra;}{\f43\fnil\fcharset2\fprq2{\*\panose 01010601010101010101}Monotype Sorts;}
+{\f44\froman\fcharset0\fprq2{\*\panose 00050102010706020507}Map Symbols;}{\f45\froman\fcharset0\fprq2{\*\panose 02020404030301010803}Garamond;}{\f46\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}MS Outlook;}
+{\f47\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Bookshelf Symbol 3;}{\f48\fswiss\fcharset2\fprq2{\*\panose 050b0604020202020204}Bookshelf Symbol 4;}{\f49\fnil\fcharset2\fprq2{\*\panose 05010101010101010101}Bookshelf Symbol 5;}
+{\f50\froman\fcharset238\fprq2 Times New Roman CE;}{\f51\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f53\froman\fcharset161\fprq2 Times New Roman Greek;}{\f54\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f55\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f56\fswiss\fcharset238\fprq2 Arial CE;}{\f57\fswiss\fcharset204\fprq2 Arial Cyr;}{\f59\fswiss\fcharset161\fprq2 Arial Greek;}{\f60\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f61\fswiss\fcharset186\fprq2 Arial Baltic;}{\f62\fmodern\fcharset238\fprq1 Courier New CE;}{\f63\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f65\fmodern\fcharset161\fprq1 Courier New Greek;}{\f66\fmodern\fcharset162\fprq1 Courier New Tur;}
+{\f67\fmodern\fcharset186\fprq1 Courier New Baltic;}{\f140\fswiss\fcharset238\fprq2 Tahoma CE;}{\f141\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f143\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f144\fswiss\fcharset162\fprq2 Tahoma Tur;}
+{\f145\fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f194\fmodern\fcharset238\fprq1 Lucida Console CE;}{\f195\fmodern\fcharset204\fprq1 Lucida Console Cyr;}{\f197\fmodern\fcharset161\fprq1 Lucida Console Greek;}
+{\f198\fmodern\fcharset162\fprq1 Lucida Console Tur;}{\f200\fswiss\fcharset238\fprq2 Lucida Sans Unicode CE;}{\f201\fswiss\fcharset204\fprq2 Lucida Sans Unicode Cyr;}{\f203\fswiss\fcharset161\fprq2 Lucida Sans Unicode Greek;}
+{\f204\fswiss\fcharset162\fprq2 Lucida Sans Unicode Tur;}{\f206\fswiss\fcharset238\fprq2 Arial Black CE;}{\f207\fswiss\fcharset204\fprq2 Arial Black Cyr;}{\f209\fswiss\fcharset161\fprq2 Arial Black Greek;}{\f210\fswiss\fcharset162\fprq2 Arial Black Tur;}
+{\f211\fswiss\fcharset186\fprq2 Arial Black Baltic;}{\f212\fscript\fcharset238\fprq2 Comic Sans MS CE;}{\f213\fscript\fcharset204\fprq2 Comic Sans MS Cyr;}{\f215\fscript\fcharset161\fprq2 Comic Sans MS Greek;}
+{\f216\fscript\fcharset162\fprq2 Comic Sans MS Tur;}{\f217\fscript\fcharset186\fprq2 Comic Sans MS Baltic;}{\f218\fswiss\fcharset238\fprq2 Impact CE;}{\f219\fswiss\fcharset204\fprq2 Impact Cyr;}{\f221\fswiss\fcharset161\fprq2 Impact Greek;}
+{\f222\fswiss\fcharset162\fprq2 Impact Tur;}{\f223\fswiss\fcharset186\fprq2 Impact Baltic;}{\f224\fswiss\fcharset238\fprq2 Verdana CE;}{\f225\fswiss\fcharset204\fprq2 Verdana Cyr;}{\f227\fswiss\fcharset161\fprq2 Verdana Greek;}
+{\f228\fswiss\fcharset162\fprq2 Verdana Tur;}{\f229\fswiss\fcharset186\fprq2 Verdana Baltic;}{\f236\froman\fcharset238\fprq2 Georgia CE;}{\f237\froman\fcharset204\fprq2 Georgia Cyr;}{\f239\froman\fcharset161\fprq2 Georgia Greek;}
+{\f240\froman\fcharset162\fprq2 Georgia Tur;}{\f241\froman\fcharset186\fprq2 Georgia Baltic;}{\f242\fswiss\fcharset238\fprq2 Trebuchet MS CE;}{\f246\fswiss\fcharset162\fprq2 Trebuchet MS Tur;}{\f248\fmodern\fcharset238\fprq1 Andale Mono CE;}
+{\f249\fmodern\fcharset204\fprq1 Andale Mono Cyr;}{\f251\fmodern\fcharset161\fprq1 Andale Mono Greek;}{\f252\fmodern\fcharset162\fprq1 Andale Mono Tur;}{\f253\fmodern\fcharset186\fprq1 Andale Mono Baltic;}{\f260\fswiss\fcharset238\fprq2 Arial Narrow CE;}
+{\f261\fswiss\fcharset204\fprq2 Arial Narrow Cyr;}{\f263\fswiss\fcharset161\fprq2 Arial Narrow Greek;}{\f264\fswiss\fcharset162\fprq2 Arial Narrow Tur;}{\f265\fswiss\fcharset186\fprq2 Arial Narrow Baltic;}
+{\f266\froman\fcharset238\fprq2 Bookman Old Style CE;}{\f267\froman\fcharset204\fprq2 Bookman Old Style Cyr;}{\f269\froman\fcharset161\fprq2 Bookman Old Style Greek;}{\f270\froman\fcharset162\fprq2 Bookman Old Style Tur;}
+{\f271\froman\fcharset186\fprq2 Bookman Old Style Baltic;}{\f320\froman\fcharset238\fprq2 Garamond CE;}{\f321\froman\fcharset204\fprq2 Garamond Cyr;}{\f323\froman\fcharset161\fprq2 Garamond Greek;}{\f324\froman\fcharset162\fprq2 Garamond Tur;}
+{\f325\froman\fcharset186\fprq2 Garamond Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar\adjustright \fs20\lang1036\cgrid \snext0 
+Normal;}{\s1\qj\keepn\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright \fs28\lang3084\cgrid \sbasedon0 \snext0 heading 1;}{\s2\keepn\widctlpar\adjustright \fs28\lang3084\cgrid \sbasedon0 \snext0 
+heading 2;}{\s3\qj\keepn\widctlpar\adjustright \fs28\lang3084\cgrid \sbasedon0 \snext0 heading 3;}{\s4\qj\keepn\widctlpar\adjustright \i\fs28\lang3084\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}{
+\s15\qj\widctlpar\adjustright \fs20\lang3084\cgrid \sbasedon0 \snext15 Body Text;}{\s16\widctlpar\tqc\tx4536\tqr\tx9072\adjustright \fs20\lang1036\cgrid \sbasedon0 \snext16 header;}{\s17\widctlpar\tqc\tx4536\tqr\tx9072\adjustright \fs20\lang1036\cgrid 
+\sbasedon0 \snext17 footer;}{\*\cs18 \additive \sbasedon10 page number;}}{\*\listtable{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid91127304}{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 
+\fi-360\li360\jclisttab\tx360 }{\listname ;}\listid101263196}{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360
+\jclisttab\tx360 }{\listname ;}\listid112213811}{\list\listtemplateid149727062\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }
+{\listname ;}\listid256598335}{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname 
+;}\listid276521112}{\list\listtemplateid-677723658\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid388384051}
+{\list\listtemplateid1400022468\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat3\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\ul\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid446512072}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid455149969}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid492331463}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid636646447}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid676419356}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid817189982}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid854921403}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid889995458}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid907425566}
+{\list\listtemplateid1922226558\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid930505682}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid969869714}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1026254634}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1100566026}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1105491731}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1170019314}
+{\list\listtemplateid67895311\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1261992416}
+{\list\listtemplateid-71032708\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1268611396}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1315376499}
+{\list\listtemplateid2141615388\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat0\levelspace0\levelindent0{\leveltext\'01\u-3880 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1359159486}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1433470354}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1524978330}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1564245719}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1600216071}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1786265726}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1803308890}
+{\list\listtemplateid-1143574308\listsimple{\listlevel\levelnfc4\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'02\'00.;}{\levelnumbers\'01;}\ul\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1812213648}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1881086485}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1898399692}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid1922258069}
+{\list\listtemplateid67895297\listsimple{\listlevel\levelnfc23\leveljc0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fbias0 \fi-360\li360\jclisttab\tx360 }{\listname ;}\listid2032877011}}
+{\*\listoverridetable{\listoverride\listid1812213648\listoverridecount0\ls1}{\listoverride\listid446512072\listoverridecount0\ls2}{\listoverride\listid930505682\listoverridecount0\ls3}{\listoverride\listid636646447\listoverridecount0\ls4}
+{\listoverride\listid256598335\listoverridecount0\ls5}{\listoverride\listid492331463\listoverridecount0\ls6}{\listoverride\listid1105491731\listoverridecount0\ls7}{\listoverride\listid1524978330\listoverridecount0\ls8}{\listoverride\listid388384051
+\listoverridecount0\ls9}{\listoverride\listid1170019314\listoverridecount0\ls10}{\listoverride\listid1359159486\listoverridecount0\ls11}{\listoverride\listid276521112\listoverridecount0\ls12}{\listoverride\listid1898399692\listoverridecount0\ls13}
+{\listoverride\listid676419356\listoverridecount0\ls14}{\listoverride\listid112213811\listoverridecount0\ls15}{\listoverride\listid1433470354\listoverridecount0\ls16}{\listoverride\listid1026254634\listoverridecount0\ls17}{\listoverride\listid1922258069
+\listoverridecount0\ls18}{\listoverride\listid455149969\listoverridecount0\ls19}{\listoverride\listid969869714\listoverridecount0\ls20}{\listoverride\listid1261992416\listoverridecount0\ls21}{\listoverride\listid1803308890\listoverridecount0\ls22}
+{\listoverride\listid1786265726\listoverridecount0\ls23}{\listoverride\listid2032877011\listoverridecount0\ls24}{\listoverride\listid91127304\listoverridecount0\ls25}{\listoverride\listid1315376499\listoverridecount0\ls26}{\listoverride\listid907425566
+\listoverridecount0\ls27}{\listoverride\listid889995458\listoverridecount0\ls28}{\listoverride\listid101263196\listoverridecount0\ls29}{\listoverride\listid817189982\listoverridecount0\ls30}{\listoverride\listid1600216071\listoverridecount0\ls31}
+{\listoverride\listid854921403\listoverridecount0\ls32}{\listoverride\listid1881086485\listoverridecount0\ls33}{\listoverride\listid1564245719\listoverridecount0\ls34}{\listoverride\listid1268611396\listoverridecount0\ls35}{\listoverride\listid1100566026
+\listoverridecount0\ls36}}{\*\revtbl {Unknown;}}{\info{\title La logique propositionnelle}{\author matinft2}{\operator Dept. Math-Info}{\creatim\yr2000\mo1\dy13\hr13\min8}{\revtim\yr2000\mo1\dy13\hr13\min8}{\printim\yr1999\mo1\dy13\hr20\min57}{\version2}{\edmins1}
+{\nofpages20}{\nofwords2205}{\nofchars12571}{\*\company UQTR}{\nofcharsws15438}{\vern113}}\paperw15842\paperh12242\margl1418\margr1418\margt1418\margb1418 
+\deftab708\widowctrl\ftnbj\aenddoc\hyphhotz425\formshade\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot \fet0\sectd \lndscpsxn\psz1\linex0\headery709\footery709\colsx709\endnhere\pgbrdropt32\sectdefaultcl {\header \pard\plain \s16\widctlpar\brdrb
+\brdrs\brdrw10\brsp20 \tqc\tx6237\tqr\tx12758\adjustright \fs20\lang1036\cgrid {\lang3084 MAP-1011   \tab }{\field{\*\fldinst {\cs18  PAGE }}{\fldrslt {\cs18\lang1024 1}}}{\lang3084 \tab Isma\'efl BISKRI
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s1\qc\keepn\widctlpar
+\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\outlinelevel0\adjustright \fs28\lang3084\cgrid {\b\caps\fs36\ul 
+\par 
+\par }{\b\caps\fs48\ul La logique propositionnelle 
+\par & 
+\par La logique des pr\'e9dicats
+\par }\pard\plain \widctlpar\adjustright \fs20\lang1036\cgrid {\fs36\lang3084 
+\par 
+\par 
+\par 
+\par }\pard\plain \s15\qj\widctlpar\adjustright \fs20\lang3084\cgrid {\fs36 Ce chapitre est une introduction aux concepts de bases de la logique math\'e9matique. Pour \'eatre capable de comprendre les concepts les plus avanc\'e9s de la logique math\'e9
+matique, il est n\'e9cessaire de bien ma\'eetriser la logique propositionnelle et la logique des pr\'e9dicats.
+\par }\pard\plain \qj\widctlpar\adjustright \fs20\lang1036\cgrid {\fs36\lang3084 
+\par 
+\par 
+\par 
+\par }\pard \qj\widctlpar\brdrt\brdrs\brdrw10\brsp20 \brdrl\brdrs\brdrw10\brsp80 \brdrb\brdrs\brdrw10\brsp20 \brdrr\brdrs\brdrw10\brsp80 \adjustright \shading2500\cbpat8 {\fs36\lang3084 Une logique similaire \'e0 la logique propositionnelle existe, en l
+\rquote occurrence la logique bool\'e9enne sur laquelle nous reviendrons dans un chapitre ult\'e9rieur.
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par 
+\par 
+\par 1- }{\b\caps\fs36\ul La logique propositionnelle\~:}{\fs36\lang3084 
+\par 
+\par }{\b\fs36\lang3084 A. Propositions\~:
+\par }{\fs36\lang3084 
+\par {\pntext\pard\plain\fs36\ul\cgrid \hich\af0\dbch\af0\loch\f0 a.\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pnlcltr\pnul\pnstart1\pnindent360\pnhang{\pntxta .}}\ls1\adjustright {\fs36\ul\lang3084 D\'e9finition
+\~:}{\fs36\lang3084  Une proposition est une assertion (phrase \'e9ventuellement) qui ne peut qu\rquote \'eatre Vraie ou Fausse. [Donc deux valeurs de v\'e9rit\'e9s Vrai (v) et Faux (f)]
+\par }\pard \qj\widctlpar\adjustright {\fs36\ul\lang3084 
+\par b. Exemple\~:}{\fs36\lang3084  \tab \lquote La terre est carr\'e9e\rquote  est une assertion }{\i\fs36\lang3084 Fausse}{\fs36\lang3084  
+\par \tab \tab \tab \lquote Trois-Rivi\'e8res est au Qu\'e9bec\rquote  est une assertion }{\i\fs36\lang3084 Vraie
+\par 
+\par }{\b\fs36\lang3084 B. Op\'e9rateurs Logiques\~:
+\par }{\fs36\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls4\adjustright {\fs36\lang3084 Il y a plusieurs fa
+\'e7ons de combiner des propositions simples de sorte \'e0 produire des propositions plus complexes. 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls4\adjustright {\fs36\lang3084 Des op\'e9
+rateurs (connecteurs) comme et (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 ), ou (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 ), non(}{
+\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 , ~), si \'85 alors  (implique, }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 
+), si et seulement si (\'e9quivalent \'e0, }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 ) permettent de construire \'e0 partir d\rquote une proposition donn\'e9e une nouvelle proposition.
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls4\adjustright {\fs36\lang3084 L\rquote op\'e9
+rateur non op\'e8re sur une proposition.
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls4\adjustright {\fs36\lang3084 Les autres op\'e9
+rateurs op\'e8rent sur plusieurs propositions (deux au moins). 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls4\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls4\adjustright {\fs36\lang3084 Pour conna\'ee
+tre la valeur de v\'e9rit\'e9 d\rquote une proposition, nous avons le concept de la table de v\'e9rit\'e9.
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par {\pntext\pard\plain\b\fs36\cgrid \hich\af0\dbch\af0\loch\f0 a.\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {\b\fs36\lang3084 Le connecteur de n
+\'e9gation non\~:
+\par }\pard \qj\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\b\fs36\lang3084 
+\par }\pard \qj\li709\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\fs36\lang3084 Si A est une proposition alors non A not\'e9e }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 
+ A est une proposition. La proposition }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  A est d\'e9finie par la table de v\'e9rit\'e9 suivante\~:
+\par 
+\par }\pard \qj\li709\widctlpar\tqc\tx1560\tqc\tx2552{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\fs36\lang3084 \tab A\tab }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  A
+\par }{\fs12\lang3084 
+\par }{\fs36\lang3084 \tab v\tab f
+\par \tab f\tab v
+\par 
+\par {\pntext\pard\plain\b\fs36\cgrid \hich\af0\dbch\af0\loch\f0 b.\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {\b\fs36\lang3084 
+Le connecteur de conjonction et\~:
+\par }\pard \qj\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\b\fs36\lang3084 
+\par }\pard \qj\li708\widctlpar{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\fs36\lang3084 Si A et B sont des propositions alors A et B not\'e9e A}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\lang3084 B est une proposition. La proposition A}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B est d\'e9finie par la table de v\'e9rit\'e9 suivante\~:
+\par 
+\par }\pard \qj\fi1\li708\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\fs36\lang3084 \tab A\tab B\tab A}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\lang3084 B
+\par }{\fs12\lang3084 
+\par }{\fs36\lang3084 \tab v\tab v\tab v
+\par \tab v\tab f\tab f
+\par \tab f\tab v\tab f
+\par \tab f\tab f\tab f
+\par 
+\par 
+\par {\pntext\pard\plain\b\fs36\cgrid \hich\af0\dbch\af0\loch\f0 c.\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {
+\b\fs36\lang3084 Le connecteur de disjonction ou\~:
+\par }\pard \qj\li709\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\fs36\lang3084 
+\par Si A et B sont des propositions alors A ou B not\'e9e A}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B est une proposition. La proposition A}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f 
+"Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B est d\'e9finie par la table de v\'e9rit\'e9 suivante\~:
+\par 
+\par }\pard \qj\fi1\li708\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\fs36\lang3084 \tab A\tab B\tab A}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\lang3084 B
+\par }{\fs12\lang3084 
+\par }{\fs36\lang3084 \tab v\tab v\tab v
+\par \tab v\tab f\tab v
+\par \tab f\tab v\tab v
+\par \tab f\tab f\tab f
+\par }\pard \qj\li709\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\fs36\lang3084 
+\par {\pntext\pard\plain\b\fs36\cgrid \hich\af0\dbch\af0\loch\f0 d.\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {
+\b\fs36\lang3084 Le connecteur d\rquote implication }{\b\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\b\fs36\lang3084 \~:
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\fs36\lang3084 
+\par }\pard \qj\li709\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261{\*\pn \pnlvlcont\ilvl0\ls0\pnrnot0\pndec }\adjustright {\fs36\lang3084 Si A et B sont deux propositions alors la condition  si A alors B not\'e9e A}{\fs36\lang3084 {\field{\*\fldinst SYMBOL
+ 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B est une proposition. A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B est d\'e9finie par la table de v\'e9rit\'e9 suivante\~:
+\par 
+\par \tab A\tab B\tab A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B
+\par }{\fs12\lang3084 
+\par }{\fs36\lang3084 \tab v\tab v\tab v
+\par \tab v\tab f\tab f
+\par \tab f\tab v\tab v
+\par \tab f\tab f\tab v
+\par {\pntext\pard\plain\b\fs36\cgrid \hich\af0\dbch\af0\loch\f0 e.\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls5\adjustright {
+\b\fs36\lang3084 Le connecteur d\rquote \'e9quivalence }{\b\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\b\fs36\lang3084 \~:
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\adjustright {\fs36\lang3084 
+\par }\pard \qj\li709\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\adjustright {\fs36\lang3084 Si A et B sont deux propositions alors la condition si et seulement si A alors B not\'e9e A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B est une proposition. A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B est d\'e9finie par la table de v\'e9rit\'e9 suivante\~:
+\par 
+\par \tab A\tab B\tab A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B
+\par }{\fs12\lang3084 
+\par }{\fs36\lang3084 \tab v\tab v\tab v
+\par \tab v\tab f\tab f
+\par \tab f\tab v\tab f
+\par \tab f\tab f\tab v
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\adjustright {\fs36\lang3084 
+\par }{\b\fs36\lang3084 C. Tables de v\'e9rit\'e9s\~et propositions complexes :
+\par }{\fs36\lang3084 
+\par Consid\'e9rons la proposition (A}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (}{
+\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 C) o\'f9
+ A, B et C sont des propositions. Ceci est un exemple d\rquote une proposition complexe construite \'e0 partir de propositions moins complexes.
+\par }\pard\plain \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright \fs20\lang3084\cgrid {\fs36 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5812\tqc\tx7797\adjustright {\fs36 \tab A\tab B\tab C\tab (A}{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B)\tab }{\fs36 
+{\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B\tab (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B}{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 
+C)\tab \tab (A}{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B) }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B}{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 C)
+\par }\pard\plain \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5812\tqc\tx7797\adjustright \fs20\lang1036\cgrid {\fs12\lang3084 
+\par }{\fs36\lang3084 \tab v\tab v\tab v\tab v\tab f\tab f\tab \tab \tab v
+\par \tab v\tab v\tab f\tab v\tab f\tab f\tab \tab \tab v
+\par \tab v\tab f\tab v\tab f\tab v\tab v\tab \tab \tab v
+\par \tab v\tab f\tab f\tab f\tab v\tab f\tab \tab \tab f
+\par \tab f\tab v\tab v\tab f\tab f\tab f\tab \tab \tab f
+\par \tab f\tab v\tab f\tab f\tab f\tab f\tab \tab \tab f
+\par \tab f\tab f\tab v\tab f\tab v\tab v\tab \tab \tab v
+\par \tab f\tab f\tab f\tab f\tab v\tab f\tab \tab \tab f
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright {\fs36\lang3084 
+\par }{\b\fs36\lang3084 Remarque\~:
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright \shading2500\cbpat8 {\fs36\lang3084 Le nombre de combinaisons d\'e9pend du nombre de propositions de d\'e9
+part. Ainsi si nous avons 2 propositions nous aurons alors une table de v\'e9rit\'e9 de 4 combinaisons. Si nous a
+vons 3 propositions alors nous aurons 8 combinaisons. En fait si le nombre de propositions est x alors le nombre de combinaisons est 2 * 2 * 2  \'85 * 2  x fois (autrement dit 2}{\fs36\lang3084\super x}{\fs36\lang3084 ).
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright {\fs36\lang3084 
+\par 
+\par }{\b\fs36\lang3084 D\'e9finitions\~:
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls6\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls6\adjustright \shading1500\cbpat8 {\fs36\lang3084 Une proposition complexe est construite \'e0 partir de propositions initiales au moyen de la conjonction, de la disjonction et de la n\'e9gation.
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls6\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls6\adjustright \shading1500\cbpat8 {\fs36\lang3084 Si x et y sont des propositions alors (x), }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 x, (x) }
+{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (y) et (x) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (y) sont des propositions.
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright {\b\fs36\lang3084 Remarque\~:
+\par }\pard\plain \s1\qj\keepn\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\outlinelevel0\adjustright \shading2500\cbpat8 \fs28\lang3084\cgrid {\fs36 La proposition A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C est \'e9quivalente \'e0 (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 
+{\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C
+\par }\pard\plain \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright \shading2500\cbpat8 \fs20\lang1036\cgrid {\fs36\lang3084 La proposition A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  C est \'e9quivalente \'e0 ((A) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (B)) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  C
+\par La proposition }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  }{\fs36\lang3084 
+{\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B est \'e9quivalente \'e0 (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 A) }{\fs36\lang3084 {\field{\*\fldinst 
+SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B)
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright {\fs36\lang3084 
+\par D\rquote une mani\'e8re g\'e9n\'e9rale il y a une r\'e8gle de priorit\'e9 entre les op\'e9rateurs logiques quand on n\rquote utilise pas les parenth\'e8ses. Cette r\'e8gle de priorit\'e9 est la suivante\~:
+\par \tab N\'e9gation (non)
+\par \tab Conjonction (et)
+\par \tab Disjonction (ou)
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Les parenth\'e8ses ont bien sur une priorit\'e9 sup\'e9rieure.
+\par 
+\par Exercices\~: 
+\par 
+\par 1. Construire les tables de v\'e9rit\'e9s de\~:
+\par }{\fs16\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls7\adjustright {\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 (A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\lang3084  B)
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls7\adjustright {\fs36\lang3084 A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B)
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls7\adjustright {\fs36\lang3084 (A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  C
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls7\adjustright {\fs36\lang3084 (A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (B }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  C) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\lang3084  (C }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  A)
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls7\adjustright {\fs36\lang3084 (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 A) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B)
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls7\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls7\adjustright {\fs36\lang3084 A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  C }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  D 
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright {\fs36\lang3084 2. R\'e9\'e9crire les propositions suivantes avec le moins de parenth\'e8ses possibles\~:
+\par 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls8\adjustright {\fs36\lang3084 (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 ((A) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (B)))}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084   (C)
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls8\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls8\adjustright {\fs36\lang3084 ((A) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (B)) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  ((C) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084   (B))
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright {\fs36\lang3084 
+\par 3. Dans quel ordre sont les op\'e9rations logiques dans cette expression\~:
+\par 
+\par A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084   }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B }{\fs36\lang3084 {\field{\*\fldinst SYMBOL
+ 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  C }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}
+{\fs36\lang3084 A
+\par 
+\par }{\b\fs36\lang3084 D. L\rquote \'e9quivalence et l\rquote implication\~:
+\par }{\fs36\lang3084 
+\par {\pntext\pard\plain\b\fs36\cgrid \hich\af0\dbch\af0\loch\f0 a.\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0
+\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls9\adjustright {\b\fs36\lang3084 Tautologies\~:
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright {\fs16\lang3084 
+\par }{\fs36\lang3084 D\'e9finition\~: une tautologie est une proposition toujours vraie. Une tautologie sera not\'e9e par v.
+\par 
+\par Exemples de tautologie\~:
+\par }{\fs16\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls12\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls12\adjustright {\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\lang3084  B) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 A) }{
+\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084   (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 B)
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls10\adjustright {\fs36\lang3084 A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 A
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls10\adjustright {\fs36\lang3084 (A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  A
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls10\adjustright {\fs36\lang3084 A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (B }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  A)
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088{\*\pn \pnlvlblt\ilvl0\ls10\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls10\adjustright {\fs36\lang3084 (A }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  B) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084   (B }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  A)
+\par }\pard \qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\adjustright {\fs36\lang3084 v\'e9rifions la premi\'e8re tautologie\~:
+\par 
+\par 
+\par }\pard\plain \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6379\tqc\tx7371\tx8222\adjustright \fs20\lang3084\cgrid {\fs36 \tab A\tab B\tab (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36  B)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f 
+"Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A\tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B\tab (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A) }{\fs36 
+{\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B)
+\par }{\fs16 
+\par }{\fs36 \tab v\tab v\tab v\tab \tab f\tab \tab f\tab f\tab \tab f\tab \tab 
+\par \tab v\tab f\tab f\tab \tab v\tab \tab f\tab v\tab \tab v\tab \tab 
+\par \tab f\tab v\tab f\tab \tab v\tab \tab v\tab f\tab \tab v\tab \tab 
+\par \tab f\tab f\tab f\tab \tab v\tab \tab v\tab v\tab \tab v\tab 
+\par 
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6379\tqc\tx7797\adjustright {\fs36 Consid\'e9rons que\~:
+\par }{\fs16 
+\par }{\fs36 la proposition A est \lquote Tension art\'e9rielle sup\'e9rieure \'e0 11\rquote  ( Tension > 11)
+\par }{\fs16 
+\par }{\fs36 la proposition B est \lquote Tension art\'e9rielle inf\'e9rieure \'e0 13\rquote  (Tension < 13)
+\par }{\fs16 
+\par }{\fs36 la proposition (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) signifie alors \lquote Tension art\'e9rielle sup\'e9rieure \'e0 11 et inf\'e9rieure \'e0 13\rquote  (11 < Tension < 13 )
+\par }{\fs16 
+\par }{\fs36 la proposition }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) signifie alors \lquote  Tension art\'e9rielle n
+\rquote est pas sup\'e9rieure \'e0 11 et inf\'e9rieure \'e0 13\rquote  (non (11 < Tension < 13 )) autrement dit 
+\par ((Tension <= 11) ou (Tension >= 13))
+\par }{\fs16 
+\par }{\fs36 la proposition }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A signifie \lquote  Tension art\'e9rielle n\rquote est pas sup\'e9rieure \'e0 11\rquote  
+\par (non (Tension > 11)) autrement dit (Tension <= 11)
+\par 
+\par la proposition }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B signifie \lquote  Tension art\'e9rielle n\rquote est pas inf\'e9rieure \'e0 13\rquote  
+\par (non (Tension < 13)) autrement dit (Tension >= 13)
+\par 
+\par la proposition (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A) }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36   (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B) signifie d\'e8s lors \lquote  Tension art\'e9rielle inf\'e9rieure ou \'e9gale \'e0 11 ou Tension  art\'e9rielle sup\'e9rieure ou \'e9gale \'e0 13\rquote 
+\par ((Tension <= 11) ou  (Tension >= 13))
+\par 
+\par CQFD.
+\par 
+\par {\pntext\pard\plain\s15 \b\fs36\cgrid \hich\af0\dbch\af0\loch\f0 b.\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6379\tqc\tx7797{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0
+\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls9\adjustright {\b\fs36 Contradictions (antilogies)
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6379\tqc\tx7797\adjustright {\fs36 
+\par D\'e9finition\~: une contradiction est toujours fausse. Une contradiction sera not\'e9e par f
+\par 
+\par Exemples de Contradiction\~:
+\par }{\fs16 
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6379\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls13\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls13\adjustright {\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6379\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls13\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls13\adjustright {\fs36 (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{
+\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36 B)
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6379\tqc\tx7797\adjustright {\fs32 
+\par 
+\par 
+\par 
+\par 
+\par }\pard \s15\qj\widctlpar\tqc\tx851\tqc\tx1560\tqc\tx2410\tqc\tx3544\tqc\tx4820\tqc\tx6663\tqc\tx9498\adjustright {\fs36 \tab A\tab B\tab (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B)\tab (}{\fs36 
+{\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A)\tab (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A)\tab (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B)\tab (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A) }{\fs36 {\field{\*\fldinst SYMBOL
+ 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B)
+\par }{\fs16 
+\par }{\fs36 \tab v\tab v\tab v\tab f\tab f\tab f\tab f
+\par \tab v\tab f\tab v\tab f\tab f\tab v\tab f
+\par \tab f\tab v\tab v\tab v\tab v\tab f\tab f
+\par \tab f\tab f\tab f\tab v\tab f\tab v\tab f
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6663\tqc\tx6804\tqc\tx7797\tqc\tx9498\adjustright {\fs36 
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2410\tqc\tx3686\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797\adjustright {\fs36 \tab A\tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A\tab A }{\fs36 {\field{\*\fldinst 
+SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A
+\par }{\fs16 \tab \tab \tab \tab 
+\par }{\fs36 \tab v\tab f\tab f
+\par \tab f\tab v\tab f
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797\adjustright {\fs36 
+\par {\pntext\pard\plain\s15 \b\fs36\cgrid \hich\af0\dbch\af0\loch\f0 c.\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0
+\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls9\adjustright {\b\fs36 \'c9quivalence\~:
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797\adjustright {\fs36 
+\par D\'e9finition\~: On dit qu\rquote une proposition A est \'e9quivalente \'e0 une proposition B si la proposition A}{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B est une tautologie. On notera l\rquote \'e9
+quivalence par  }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36 
+\par 
+\par Exemples : 
+\par }{\fs16 
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls14\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls14\adjustright {\fs36 (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{
+\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B)  }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\sub v}{\fs36  B
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls14\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls14\adjustright {\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{
+\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36 A
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls14\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls14\adjustright {\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{
+\fs36  B }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A
+\par }\pard \s15\qj\widctlpar\tqc\tx1134\tqc\tx1843\tqc\tx2552\tqc\tx3402\tqc\tx4253\tqc\tx5670\tqc\tx7797\adjustright {\fs36 \tab 
+\par }\pard \s15\qj\widctlpar\tqc\tx142\tqc\tx851\tqc\tx1985\tqc\tx3119\tqc\tx4395\tqc\tx6804\tqc\tx10632\adjustright {\fs36 \tab A\tab B\tab (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B)\tab }{\fs36 
+{\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A\tab (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36  B)\tab (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B)\tab (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL
+ 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 
+{\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  B
+\par }{\fs16 
+\par }{\fs36 v\tab v\tab v\tab f\tab f\tab v\tab v\tab \tab \tab 
+\par v\tab f\tab f\tab f\tab f\tab f\tab v\tab 
+\par f\tab \tab v\tab f\tab v\tab v\tab v\tab v\tab 
+\par f\tab \tab f\tab f\tab v\tab f\tab f\tab v
+\par }\pard \s15\qj\widctlpar\tqc\tx1134\tqc\tx1843\tqc\tx2552\tqc\tx3402\tqc\tx4253\tqc\tx5670\tqc\tx7797\adjustright {\fs36 
+\par {\pntext\pard\plain\s15 \b\fs36\cgrid \hich\af0\dbch\af0\loch\f0 d.\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0
+\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls9\adjustright {\b\fs36 Implication\~:
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797\adjustright {\fs36 
+\par D\'e9finition\~: On dit qu\rquote une proposition A implique une proposition B si la proposition A }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B est une tautologie. On notera l\rquote implication dans ce cas par }
+{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v
+\par }{\fs36 
+\par Exemple\~:
+\par }{\fs16 
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls15\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls15\adjustright {\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v }{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36  B
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4395\tqc\tx5529\tqc\tx6804\tqc\tx7797\adjustright {\fs16 
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx5103\tqc\tx5529\tqc\tx6804\tqc\tx7797\adjustright {\fs36 \tab A\tab B\tab A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B\tab A }{\fs36 
+{\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v }{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5103\tqc\tx5529\tqc\tx6804\tqc\tx7797\adjustright {\fs36 \tab v\tab v\tab v\tab v\tab 
+\par \tab v\tab f\tab v\tab v\tab 
+\par \tab f\tab v\tab v\tab v\tab 
+\par \tab f\tab f\tab f\tab v\tab 
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797\adjustright {\fs36 
+\par 
+\par 
+\par Exercice\~:
+\par 
+\par Trouvez les propositions qui sont \'e9quivalentes\~:
+\par 
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls16\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls16\adjustright {\fs36 (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C
+
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls16\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls16\adjustright {\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (B }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C)
+
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls16\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls16\adjustright {\fs36 B }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls16\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls16\adjustright {\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls16\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls16\adjustright {\fs36 (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (B }
+{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C)
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls16\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls16\adjustright {\fs36 B }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls16\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls16\adjustright {\fs36 B }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797{\*\pn \pnlvlblt\ilvl0\ls16\pnrnot0
+\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls16\adjustright {\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B
+\par }\pard \s15\qj\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx3261\tqc\tx4820\tqc\tx5529\tqc\tx6804\tqc\tx7797\adjustright {\fs36 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }{\b\fs36 E. Des r\'e8gles :
+\par }{\fs36 
+\par }\pard \s15\qj\widctlpar\adjustright {\b\fs36\ul La commutativit\'e9\~:
+\par }{\fs16 
+\par }{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  B }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A
+\par A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  B }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A
+\par 
+\par }{\b\fs36\ul L\rquote associativit\'e9\~:
+\par }{\fs16 
+\par }{\fs36 (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\sub v}{\fs36  A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (B }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C)
+\par (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\sub v}{\fs36  A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (B }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C)
+\par 
+\par }{\b\fs36\ul La distributivit\'e9\~:
+\par }{\fs16 
+\par }{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (B }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\sub v}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f 
+"Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C)
+\par A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (B }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\sub v}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f 
+"Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C)
+\par 
+\par }{\b\fs36\ul L\rquote identit\'e9\~:
+\par }{\fs16 
+\par }{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  f }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  A
+\par A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  v }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  A
+\par 
+\par 
+\par 
+\par }{\b\fs36\ul La r\'e8gle de la n\'e9gation\~:
+\par }{\fs16 
+\par }{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\sub v}{\fs36  v
+\par A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\sub v}{\fs36  f
+\par 
+\par }{\b\fs36\ul L\rquote idempotence\~:
+\par }{\fs16 
+\par }{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  A
+\par A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  A
+\par 
+\par }{\b\fs36\ul L\rquote \'e9l\'e9ment absorbant\~:
+\par }{\fs16 
+\par }{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  v }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  v
+\par A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  f }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  f
+\par 
+\par }{\b\fs36\ul L\rquote absorption\~:
+\par }{\fs16 
+\par }{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\sub v}{\fs36  A
+\par A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\sub v}{\fs36  A
+\par 
+\par }{\b\fs36\ul R\'c8GLES DE DeMORGAN\~:
+\par }{\fs16 
+\par }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}
+}{\fs36\sub v}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B)
+\par }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}
+}{\fs36\sub v}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A) }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B)
+\par 
+\par }{\b\fs36\ul La r\'e8gle du double non\~:
+\par }{\fs16 
+\par }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\sub v}{\fs36  A
+\par 
+\par }{\b\fs36 F. Autres R\'e8gles\~:
+\par 
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 (A }{\fs36 
+{\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\sub v}{\fs36  B\tab r1
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 (A }{\fs36 
+{\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B }
+{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A\tab r2
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 A }{\fs36 
+{\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B)\tab r3
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 (A }{\fs36 
+{\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  A \tab r4
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 (A }{\fs36 
+{\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  B\tab r5
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 (A }{\fs36 
+{\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A }
+{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  B\tab r6
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 (A }{\fs36 
+{\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B }
+{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  A\tab r7
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 (A }{\fs36 
+{\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (B }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 
+ C) }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  (A }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C)\tab r8
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 (A }{\fs36 
+{\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36 B }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B)\tab r9
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360\tx10773{\*\pn \pnlvlblt\ilvl0\ls17\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls17\adjustright {\fs36 (A }{\fs36 
+{\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  ((A }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (B }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  A)) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  ((A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  B) }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 
+{\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 A }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 B))
+\tab r10
+\par }\pard \s15\qj\widctlpar\adjustright {\b\fs36 
+\par 
+\par 
+\par 
+\par 
+\par G. Syst\'e8me Formel\~: 
+\par 
+\par }{\fs36 Un syst\'e8me formel dans le cadre du calcul propositionnel est compos\'e9 de\~:
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls18\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls18\adjustright {\fs36 
+un ensemble de propositions (p0, p1, p2, \'85. Pn)
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls18\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls18\adjustright {\fs36 un ensemble d
+\rquote op\'e9rateurs logiques (}{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 ,}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 ,}{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36 ,}{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 ,}{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 , (, ))
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls18\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls18\adjustright {\fs36 un ensemble de r
+\'e8gles d\'e9crivant les propri\'e9t\'e9s du syst\'e8me formel. Les r\'e8gles pr\'e9sent\'e9es pr\'e9c\'e9demment en l\rquote occurrence
+\par }\pard \s15\qj\widctlpar\adjustright {\fs36 
+\par D\'e9finitions\~:
+\par }{\fs16 
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls19\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls19\adjustright {\fs36 Un th\'e9or\'e8me\~
+est une proposition vraie d\'e9riv\'e9e \'e0 partir des propositions initiales du syst\'e8me formel. 
+\par }\pard \s15\qj\widctlpar\adjustright {\fs16 
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls20\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls20\adjustright {\fs36 La preuve d\rquote 
+un th\'e9or\'e8me est la s\'e9quence finie des \'e9tapes logiques qui permettent de d\'e9montrer qu\rquote \'e0 partir des pr\'e9misses d\rquote un th\'e9or\'e8me on peut obtenir la conclusion.
+\par }\pard \s15\qj\widctlpar\adjustright {\fs36 
+\par p0, p1, p2, \'85, pk }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  P\tab \tab \tab \tab (th\'e9or\'e8me)
+\par p0, p1, p2, \'85, pk\tab \tab \tab \tab \tab (pr\'e9misses)
+\par P\tab \tab \tab \tab \tab \tab \tab \tab (conclusion)
+\par 
+\par 
+\par 
+\par 
+\par Exemple\~:
+\par 
+\par Th\'e9or\'e8me x }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y, z }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  w, x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  w }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y
+\par }{\fs16 
+\par }{\fs36 (1)\tab \tab x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z\tab \tab \tab \tab \tab \tab pr\'e9misse
+\par (2)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 x }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z\tab \tab \tab \tab \tab \tab (1), (r9)
+\par (3)\tab \tab z }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  w\tab \tab \tab \tab \tab \tab pr\'e9misse
+\par (4)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 x }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  w\tab \tab \tab \tab \tab \tab (2), (3), (r8)
+\par (5)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 w }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  x\tab \tab \tab \tab \tab \tab (4), (r9)
+\par (6)\tab \tab x }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y\tab \tab \tab \tab \tab \tab pr\'e9misse
+\par (7)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 w }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y\tab \tab \tab \tab \tab \tab (5), (6), (r8)
+\par (8)\tab \tab w }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y\tab \tab \tab \tab \tab \tab (7), (r9)
+\par Fin de la preuve
+\par 
+\par Th\'e9or\'e8me }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y, z }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36  x, }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 y }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v }{\fs36 z
+\par }{\fs16 
+\par }{\fs36 (1)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y\tab \tab \tab \tab \tab \tab pr\'e9misse
+\par (2)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 y\tab \tab \tab \tab \tab \tab \tab pr\'e9misse
+\par (3)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 x\tab \tab \tab \tab \tab \tab \tab (1), (2), (r7)
+\par (4)\tab \tab z }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  x\tab \tab \tab \tab \tab \tab pr\'e9misse
+\par (5)\tab \tab z\tab \tab \tab \tab \tab \tab \tab (3), (4), (r7)
+\par Fin de la preuve
+\par }\pard \s15\qj\widctlpar\adjustright \shading3000\cbpat8 {\fs36 Remarque\~: Ces deux preuves sont des preuves de type direct. En d\rquote autres termes la preuve montre la validit\'e9 de la conclusion des th\'e9or\'e8mes.
+\par }\pard \s15\qj\widctlpar\adjustright {\fs36 
+\par Reprenons le th\'e9or\'e8me x }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y, z }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  w, x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f 
+"Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  w }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y
+\par }{\fs16 
+\par }{\fs36 (1)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 (w }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y)\tab \tab \tab \tab \tab \tab N\'e9gation de la conclusion
+
+\par (2)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 w }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36 y\tab \tab \tab \tab \tab \tab (1), DeMorgan
+\par (3)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 w\tab \tab \tab \tab \tab \tab \tab (2), (r4)
+\par (4)\tab \tab z }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  w\tab \tab \tab \tab \tab \tab pr\'e9misse
+\par (5)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 z\tab \tab \tab \tab \tab \tab \tab (3), (4), (r2)
+\par (6)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 y\tab \tab \tab \tab \tab \tab \tab (2), (r5)
+\par (7)\tab \tab x }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y\tab \tab \tab \tab \tab \tab pr\'e9misse
+\par (8)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 x\tab \tab \tab \tab \tab \tab \tab (6), (7), (r2)
+\par (9)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 x }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36 z\tab \tab \tab \tab \tab \tab (5), (8)
+\par (10)\tab \tab }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 (x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z)\tab \tab \tab \tab \tab \tab (9), DeMorgan
+\par (11)\tab \tab x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z\tab \tab \tab \tab \tab \tab pr\'e9misse
+\par (12)\tab \tab f\tab \tab \tab \tab \tab \tab \tab (10), (11)
+\par Fin de la preuve
+\par 
+\par 
+\par 
+\par 
+\par Explication de la m\'e9thode\~:
+\par }{\fs16 
+\par }{\fs36 Le th\'e9or\'e8me \'e0 prouver est de la forme P }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v }{\fs36 C 
+\par P\~: les pr\'e9misses p0 }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  p1 }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  p2 }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36  \'85 }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  pn
+\par C\~: la conclusion
+\par }{\fs16 
+\par }{\fs36 Prouver (P }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  C) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v }{\fs36 v  revient \'e0 prouver }{\fs36 
+{\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 (P }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 C) }
+{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v }{\fs36 v (les deux expressions \'e9tant \'e9quivalentes)
+\par Autrement dit dans notre exemple il faut prouver que\~:
+\par }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 ((x }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}
+}{\fs36  (z }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  w) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 (w }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f 
+"Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  y))
+\par Par les \'e9tapes successives nous sommes arriv\'e9s \'e0 la situation suivante
+\par }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 (\'85 }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36  z) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 (x }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z) }{\fs36 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  \'85)
+\par or ceci \'e9quivaut \'e0 }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 f ce qui donne v
+\par CQFD
+\par 
+\par Exercices\~:
+\par }{\fs16 
+\par {\pntext\pard\plain\s15 \fs36\cgrid \hich\af0\dbch\af0\loch\f0 1.\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls21\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls21\adjustright {\fs36 
+prouver par des tables de v\'e9rit\'e9s\~:
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlblt\ilvl0\ls22\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls22\adjustright {\fs36 x }{\fs36 
+{\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z, }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 z }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\sub v}{\fs36  x
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlblt\ilvl0\ls22\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls22\adjustright {\fs36 x }{\fs36 
+{\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  z, }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 z }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\sub v}{\fs36  }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 x
+\par }\pard \s15\qj\widctlpar\adjustright {\fs16 
+\par {\pntext\pard\plain\s15 \fs36\cgrid \hich\af0\dbch\af0\loch\f0 2.\tab}}\pard \s15\qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls21\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls21\adjustright {\fs36 donner des preuves de\~:
+
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlblt\ilvl0\ls23\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls23\adjustright {\fs36 a }{\fs36 
+{\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  b, c }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  b, d }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36  (a }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  c), d }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  b
+\par {\pntext\pard\plain\s15 \f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \s15\qj\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlblt\ilvl0\ls23\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls23\adjustright {\fs36 ((}{\fs36 
+{\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 q), (p }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  q), (p }{\fs36 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}
+{\fs36  t)) }{\fs36 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\sub v}{\fs36  t
+\par }\pard\plain \s1\qj\keepn\widctlpar\tqc\tx1560\tqc\tx2268\tqc\tx2977\tqc\tx3828\tqc\tx4678\tqc\tx5529\tqc\tx7088\outlinelevel0\adjustright \fs28\lang3084\cgrid {\b\caps\fs36\ul 2. La logique des pr\'e9dicats\~:
+\par }\pard\plain \qj\widctlpar\adjustright \fs20\lang1036\cgrid {\fs36\lang3084 
+\par }{\b\fs36\ul\lang3084 Objectifs\~:
+\par }{\i\fs16\lang3084 
+\par }{\i\fs36\lang3084 Montrer comment le calcul des pr\'e9dicats peut repr\'e9senter des assertions sur des collections d\rquote objets.
+\par 
+\par }{\b\fs36\lang3084 A\~. logique propositionnelle sur un ensemble\~:
+\par }{\fs36\lang3084 
+\par }\pard\plain \s2\qj\keepn\widctlpar\outlinelevel1\adjustright \fs28\lang3084\cgrid {\fs36 Prenons des exemples simples\~:
+\par }\pard\plain \qj\widctlpar\adjustright \fs20\lang1036\cgrid {\fs16\lang3084 
+\par }{\fs36\lang3084 (1) 5 < 6,   4 < 3
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 (2) 2 < n < 8, (n un entier positif (n }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN) )
+\par 
+\par Si dans le premier cas nous avons deux propositions l\rquote une vraie et l\rquote autre fausse dans le deuxi\'e8me cas nous avons une proposition vraie dans le cas ou n a l\rquote une des valeurs suivantes 3, 4, 5, 6, o
+u 7, cette proposition sera fausse sinon.
+\par 
+\par Autres exemples\~:
+\par }{\fs16\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls24\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls24\adjustright {\fs36\lang3084 6x}{
+\fs36\lang3084\super 2}{\fs36\lang3084  \endash  3x = 0 (x un r\'e9el (x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR ) )
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls24\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls24\adjustright {\fs36\lang3084 
+k est un multiple de 2 (k un entier positif k }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN) )
+\par }\pard \widctlpar\adjustright {\fs36\lang3084 
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 D\'e9finition 1\~(}{\b\fs36\lang3084 une proposition sur un ensemble}{\fs36\lang3084 ) :
+\par }\pard\plain \s3\qj\keepn\widctlpar\outlinelevel2\adjustright \fs28\lang3084\cgrid {\fs16 
+\par }\pard \s3\qj\keepn\widctlpar\outlinelevel2\adjustright \shading2500\cbpat8 {\fs36 Une proposition sur un ensemble E
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard\plain \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls25\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls25\adjustright \shading2500\cbpat8 
+\fs20\lang1036\cgrid {\fs36\lang3084 est une assertion qui contient une variable x qui peut prendre n\rquote importe quelle valeur de E
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls25\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls25\adjustright \shading2500\cbpat8 {
+\fs36\lang3084 produit en sortie une valeur de v\'e9rit\'e9 qui d\'e9pend de la valeur choisie dans E et substitu\'e9e \'e0 x.
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par 
+\par Remarque\~:
+\par }\pard \qj\widctlpar\adjustright \shading2000\cbpat8 {\fs36\lang3084 Toutes les r\'e8gles de la logique propositionnelle sont valables pour une logique propositionnelle sur Ensemble
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par 
+\par 
+\par D\'e9finition 2 (}{\b\fs36\lang3084 Ensemble de v\'e9rit\'e9}{\fs36\lang3084 )\~:
+\par }{\fs16\lang3084 
+\par }\pard \qj\widctlpar\adjustright \shading2000\cbpat8 {\fs36\lang3084 Si P(n) est une proposition sur un ensemble E, alors l\rquote ensemble de v\'e9rit\'e9 de P(n) est\~:
+\par V}{\fs36\lang3084\sub P(n) }{\fs36\lang3084 = \{e }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  E | P(e) est vraie\}
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par 
+\par 
+\par 
+\par Exemples\~:
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls26\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls26\adjustright {\fs36\lang3084 L\rquote 
+ensemble de v\'e9rit\'e9 de 2 < n < 8, (n un entier positif (n }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN)) est \{3, 4, 5, 6, 7\}
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls26\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls26\adjustright {\fs36\lang3084 L\rquote ensemble de v
+\'e9rit\'e9 de k est un multiple de 2 (k un entier positif k }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN)) est \{0, 2, 4, 6, 8, 10, \'85\}
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls26\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls26\adjustright {\fs36\lang3084 L\rquote ensemble de v
+\'e9rit\'e9 de 6x}{\fs36\lang3084\super 2}{\fs36\lang3084  \endash  3x = 0 (x un r\'e9el (x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR )) est \{0, 0.5\}
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls27\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls27\adjustright {\fs36\lang3084 L\rquote ensemble de v
+\'e9rit\'e9 de 6x}{\fs36\lang3084\super 2}{\fs36\lang3084  \endash  3x = 0 (x un entier (x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN )) est \{0\}
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par D\'e9finition 3 (}{\b\fs36\lang3084 Tautologie}{\fs36\lang3084 )\~:
+\par }{\fs16\lang3084 
+\par }\pard \qj\widctlpar\adjustright \shading2500\cbpat8 {\fs36\lang3084 Une proposition sur un ensemble E est une tautologie si l\rquote ensemble de v\'e9rit\'e9 de cette proposition est la totalit\'e9 de l\rquote ensemble E.
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par Exemples\~:
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls28\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls28\adjustright {\fs36\lang3084 
+n >= 0 (n un entier positif (n }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN))
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls28\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls28\adjustright {\fs36\lang3084 
+n / 1 = n (n un entier positif (n }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN))
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par D\'e9finition 4 (}{\b\fs36\lang3084 Antilogie}{\fs36\lang3084 )\~:
+\par }{\fs16\lang3084 
+\par }\pard \qj\widctlpar\adjustright \shading2000\cbpat8 {\fs36\lang3084 Une proposition sur un ensemble E est une antilogie si l\rquote ensemble de v\'e9rit\'e9 de cette proposition est vide.
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par Exemple\~: 
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 x}{\fs36\lang3084\super 2}{\fs36\lang3084  \endash  2 = 0 (x un entier positif (x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN))
+\par }\pard \qj\widctlpar\adjustright {\b\fs36\lang3084 R\'e8gles\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Soient deux propositions P et Q sur un ensemble E\~:
+\par }{\fs16\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls32\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls32\adjustright {\fs36\lang3084 l\rquote 
+ensemble de v\'e9rit\'e9 de P est not\'e9 V}{\fs36\lang3084\sub P}{\fs36\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls32\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls32\adjustright {\fs36\lang3084 l\rquote 
+ensemble de v\'e9rit\'e9 de Q est not\'e9 V}{\fs36\lang3084\sub Q}{\fs36\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls31\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls31\adjustright {\fs36\lang3084 l\rquote 
+ensemble de v\'e9rit\'e9 de P }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  Q est not\'e9 V}{\fs36\lang3084\sub P}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\lang3084\sub Q}{\fs36\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls31\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls31\adjustright {\fs36\lang3084 l\rquote 
+ensemble de v\'e9rit\'e9 de P }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  Q est not\'e9 V}{\fs36\lang3084\sub P}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\lang3084\sub Q}{\fs36\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls31\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls31\adjustright {\fs36\lang3084 l\rquote 
+ensemble de v\'e9rit\'e9 de P }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  Q est not\'e9 V}{\fs36\lang3084\sub P}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\lang3084\sub Q}{\fs36\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls31\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls31\adjustright {\fs36\lang3084 l\rquote 
+ensemble de v\'e9rit\'e9 de P }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  Q est not\'e9 V}{\fs36\lang3084\sub P}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\lang3084\sub Q}{\fs36\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls31\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls31\adjustright {\fs36\lang3084 l\rquote 
+ensemble de v\'e9rit\'e9 de }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 P est not\'e9 V}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{
+\fs36\lang3084\sub P}{\fs36\lang3084 
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par Nous avons les r\'e8gles suivantes\~:
+\par 
+\par V}{\fs36\lang3084\sub P}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084\sub Q}{\fs36\lang3084 \tab  = }{\fs36\lang3084\sub  }{\fs36\lang3084 V}{\fs36\lang3084\sub P}{\fs36\lang3084  }{
+\fs36\lang3084 {\field{\*\fldinst SYMBOL 199 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  V}{\fs36\lang3084\sub Q
+\par }{\fs36\lang3084 
+\par V}{\fs36\lang3084\sub P}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 218 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084\sub Q  }{\fs36\lang3084 =}{\fs36\lang3084\sub  }{\fs36\lang3084 V}{\fs36\lang3084\sub P}{\fs36\lang3084  }{\fs36\lang3084 
+{\field{\*\fldinst SYMBOL 200 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  V}{\fs36\lang3084\sub Q
+\par }{\fs36\lang3084 
+\par V}{\fs36\lang3084\sub P}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084\sub Q  }{\fs36\lang3084 =}{\fs36\lang3084\sub  }{\fs36\lang3084 V}{\fs36\lang3084\sub P}{\fs36\lang3084\super c}{
+\fs36\lang3084  }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 200 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  V}{\fs36\lang3084\sub Q
+\par }{\fs36\lang3084 
+\par V}{\fs36\lang3084\sub P}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084\sub Q  }{\fs36\lang3084 =}{\fs36\lang3084\sub  }{\fs36\lang3084 (V}{\fs36\lang3084\sub P}{\fs36\lang3084  }{\fs36\lang3084 
+{\field{\*\fldinst SYMBOL 199 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  V}{\fs36\lang3084\sub Q}{\fs36\lang3084 ) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 200 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084\sub  }{\fs36\lang3084 
+(V}{\fs36\lang3084\sub P}{\fs36\lang3084\super c}{\fs36\lang3084  }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 199 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  V}{\fs36\lang3084\sub Q}{\fs36\lang3084\super c}{\fs36\lang3084 )
+\par }{\fs36\lang3084\sub 
+\par }{\fs36\lang3084 V}{\fs36\lang3084\sub {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084\sub P      }{\fs36\lang3084 =}{\fs36\lang3084\sub  }{\fs36\lang3084 V}{\fs36\lang3084\sub P}{\fs36\lang3084\super c}{
+\fs36\lang3084  
+\par }{\b\fs36\ul\lang3084 \'c9quivalence\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Deux propositions P et Q sont \'e9quivalentes si P }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  Q est une tautologie. En terme d\rquote ensemble de v\'e9rit\'e9 P et Q son \'e9
+quivalents si V}{\fs36\lang3084\sub P}{\fs36\lang3084  = V}{\fs36\lang3084\sub Q
+\par }{\fs36\lang3084 
+\par Exemples\~:
+\par }{\fs16\lang3084 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls33\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls33\adjustright {\fs36\lang3084 
+Dans IN les propositions n + 6 = 12 et n \endash  2 = 4 sont \'e9quivalentes.
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls34\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls34\adjustright {\fs36\lang3084 
+Dans IN les propositions 2x}{\fs36\lang3084\super 2}{\fs36\lang3084  \endash  x \endash  1 = 0 et x \endash  1 = 0 sont \'e9quivalentes
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par }{\b\fs36\ul\lang3084 Implication\~:
+\par }{\b\fs16\ul\lang3084 
+\par }{\fs36\lang3084 Deux Propositions P et Q, P implique Q si P }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  Q est une tautologie. En terme d\rquote ensemble de v\'e9rit\'e9 P }{\fs36\lang3084 
+{\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  Q quand V}{\fs36\lang3084\sub P}{\fs36\lang3084  }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 205 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  V}{
+\fs36\lang3084\sub Q
+\par }{\fs36\lang3084 
+\par Exemple\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Dans l\rquote ensemble IN n <= 5 }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  n <= 10 
+\par du moment que \{0,1, 2, 3, 4, 5\} }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 205 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}
+\par 
+\par }{\b\fs36\lang3084 
+\par 
+\par 
+\par 
+\par Exercices\~:
+\par }{\fs16\lang3084 
+\par {\pntext\pard\plain\fs36\cgrid \hich\af0\dbch\af0\loch\f0 a.\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls35\pnrnot0\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls35\adjustright {\fs36\lang3084 dans l\rquote 
+ensemble des entiers positifs 
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 P(n)\~: n est premier et n < 32
+\par Q(n)\~: n est une puissance de 3
+\par R(n)\~: n est un diviseur de 27
+\par 
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls36\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls36\adjustright {\fs36\lang3084 Quel est l\rquote 
+ensemble de v\'e9rit\'e9 de ces propositions
+\par {\pntext\pard\plain\f3\fs36\cgrid \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlblt\ilvl0\ls36\pnrnot0\pnf3\pnstart1\pnindent360\pnhang{\pntxtb \'b7}}\ls36\adjustright {\fs36\lang3084 
+Quelle est la proposition qui implique l\rquote autre
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 
+\par {\pntext\pard\plain\fs36\cgrid \hich\af0\dbch\af0\loch\f0 b.\tab}}\pard \qj\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls35\pnrnot0\pnlcltr\pnstart1\pnindent360\pnhang{\pntxta .}}\ls35\adjustright {\fs36\lang3084 
+ayant les propositions suivantes par rapport \'e0 l\rquote ensemble IN\~:
+\par }\pard \qj\widctlpar\adjustright {\fs36\lang3084 P(n)\~: n < 4
+\par Q(n)\~: 2n > 17
+\par R(n)\~: n est un diviseur de 18
+\par 
+\par Quels sont les ensembles de v\'e9rit\'e9s de\~:
+\par Q
+\par P}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 217 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  Q
+\par R
+\par Q}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 222 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 R
+\par 
+\par 
+\par 
+\par }{\b\fs36\lang3084 B. Les Quantificateurs\~:
+\par }{\fs36\lang3084 
+\par }{\fs36\ul\lang3084 Le quantificateur Existentiel\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Si  P(e)  est  une  proposition par rapport \'e0 un ensemble E avec un ensemble de v\'e9rit\'e9 V}{\fs36\lang3084\sub P(e) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 185 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  }{
+\fs36\lang3084 {\field{\*\fldinst SYMBOL 198 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  alors nous disons qu\rquote il existe un \'e9l\'e9ment e de E pour lequel P(e) est vraie. Nous notons alors (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL
+ 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  e }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  E) (P(e))
+\par }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 \~est appel\'e9 quantificateur existentiel
+\par 
+\par Exemple\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN) (2x}{
+\fs36\lang3084\super 2}{\fs36\lang3084  \endash  x \endash  1 = 0)
+\par 
+\par }{\fs36\ul\lang3084 Le quantificateur Universel\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Si  P(e)  est  une  proposition par rapport \'e0 un ensemble E avec un ensemble de v\'e9rit\'e9 V}{\fs36\lang3084\sub P(e) }{\fs36\lang3084 = E alors nous disons que pour tout \'e9l\'e9ment e de E, P(e) est vraie. Nous notons alors (}{
+\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  e }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  E) (P(e))
+\par }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 \~est appel\'e9 quantificateur universel
+\par 
+\par Exemple\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Dans l\rquote ensemble des r\'e9els IR nous avons (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\lang3084  IR) (x}{\fs36\lang3084\super 2}{\fs36\lang3084  >=0)
+\par 
+\par }\pard\plain \s4\qj\keepn\widctlpar\outlinelevel3\adjustright \i\fs28\lang3084\cgrid {\fs36 La n\'e9gation du quantificateur existentiel\~: }{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 ((}{\fs36 {\field{\*\fldinst 
+SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  e }{\fs36 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  E) (P(e))) }{\fs36 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  (}{\fs36 
+{\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  e }{\fs36 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36  E) (}{\fs36 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36 
+P(e))
+\par }\pard\plain \qj\widctlpar\adjustright \fs20\lang1036\cgrid {\fs36\lang3084 
+\par }{\i\fs36\lang3084 La n\'e9gation du quantificateur universel\~: }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 ((}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}
+}{\fs36\lang3084  e }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  E) (P(e))) }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 219 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  (}{
+\fs36\lang3084 {\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  e }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  E) (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL
+ 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 P(e))
+\par 
+\par Exemples\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) (x}{
+\fs36\lang3084\super 2}{\fs36\lang3084  >=0) est \'e9quivalente \'e0 }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 ((}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt
+\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) (x}{\fs36\lang3084\super 2}{\fs36\lang3084  <0))
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN) (2x}{
+\fs36\lang3084\super 2}{\fs36\lang3084  \endash  x \endash  1 = 0) est \'e9quivalente \'e0 }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 216 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084 ((}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol"
+ \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IN) (2x}{\fs36\lang3084\super 2}{\fs36\lang3084  \endash  x \endash  1 }{\fs36\lang3084 
+{\field{\*\fldinst SYMBOL 185 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  0))
+\par 
+\par }{\fs36\ul\lang3084 Quantificateurs multiples\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Si une proposition a plus d\rquote une variable alors nous pouvons avoir plusieurs quantificateurs. Un pour chaque variable.
+\par 
+\par Exemple1\~:
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 P(x,y)\~: x2 \endash  y2 = (x + y) (x \endash  y) est une tautologie par rapport \'e0 l\rquote ensemble des paires (x, y) x, y appartenant \'e0 IR. On notera 
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) ((}{\fs36\lang3084 
+{\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  y }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) (P(x,y)))
+\par ou
+\par (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  y }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) ((}{\fs36\lang3084 {\field{\*\fldinst 
+SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) (P(x,y)))
+\par 
+\par les deux expressions ont le m\'eame sens.
+\par Exemple 2\~:
+\par 
+\par P(x,y)\~: x + y = 4 et x \endash  y = 2 est une proposition dans IR}{\fs36\lang3084\super 2}{\fs36\lang3084 
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Nous avons
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) ((}{\fs36\lang3084 
+{\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  y }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) (P(x,y)))
+\par ou
+\par (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  y }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) ((}{\fs36\lang3084 {\field{\*\fldinst 
+SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR) (P(x,y)))
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 les deux expressions ont le m\'eame sens
+\par 
+\par Exemple 3\~:
+\par 
+\par Prenons les deux propositions 
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 P(x,y)\~: (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR}{
+\fs36\lang3084\super +}{\fs36\lang3084 ) ((}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  y }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR}
+{\fs36\lang3084\super +}{\fs36\lang3084 ) (xy = 1))
+\par Q(x,y)\~: (}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 36 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  y }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR}{\fs36\lang3084\sub +}{
+\fs36\lang3084 ) ((}{\fs36\lang3084 {\field{\*\fldinst SYMBOL 34 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  x }{\fs36\lang3084 {\field{\*\fldinst SYMBOL 206 \\f "Symbol" \\s 18}{\fldrslt\f3\fs36}}}{\fs36\lang3084  IR}{\fs36\lang3084\super +}
+{\fs36\lang3084 ) (xy = 1))
+\par }{\fs16\lang3084 
+\par }{\fs36\lang3084 Ne sont pas \'e9quivalentes car si P(x,y) est vraie, Q(x,y) est fausse.
+\par }\pard\plain \s15\qj\widctlpar\adjustright \fs20\lang3084\cgrid {\fs36 
+\par }}
